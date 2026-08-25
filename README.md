@@ -49,6 +49,10 @@ When a call comes in, instead of the stock dialer screen, you get a GBA-style Po
 
 - The system dialer remains the default call app; this module only presents the incoming-call UI.
 
+### Feedback
+
+Found a bug or have a feature request? Open an issue: <https://github.com/Xposed-Modules-Repo/com.sai.pokecall/issues>
+
 ---
 
 ## 中文
@@ -95,6 +99,10 @@ When a call comes in, instead of the stock dialer screen, you get a GBA-style Po
 ### 说明
 
 - 系统拨号器仍是默认电话应用，本模块只接管来电显示界面。
+
+### 反馈
+
+遇到问题或有功能建议？欢迎提交 Issue：<https://github.com/Xposed-Modules-Repo/com.sai.pokecall/issues>
 
 ---
 
