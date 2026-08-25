@@ -12,6 +12,8 @@ When a call comes in, instead of the stock dialer screen, you get a GBA-style Po
 
 *Inspired by the PokeCall jailbreak tweak for iOS.*
 
+![PokeCall incoming-call battle screen](https://raw.githubusercontent.com/Xposed-Modules-Repo/com.sai.pokecall/main/screenshot.jpg)
+
 ### Features
 
 - 🎮 GBA-style battle encounter animation (gen 2 / gen 3 sprites)
@@ -56,6 +58,8 @@ When a call comes in, instead of the stock dialer screen, you get a GBA-style Po
 来电时不再显示系统拨号界面，取而代之的是 GBA 像素风宝可梦对战：野生宝可梦（或训练家）登场，选择 **FIGHT** 接听，选择 **RUN** 拒接。
 
 *灵感来源于 iOS 越狱插件 PokeCall。*
+
+![来电战斗界面截图](https://raw.githubusercontent.com/Xposed-Modules-Repo/com.sai.pokecall/main/screenshot.jpg)
 
 ### 功能特性
 
