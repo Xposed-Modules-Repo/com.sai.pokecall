@@ -53,22 +53,6 @@ When a call comes in, instead of the stock dialer screen, you get a GBA-style Po
 
 Found a bug or have a feature request? Open an issue: <https://github.com/Xposed-Modules-Repo/com.sai.pokecall/issues>
 
-### How to Collect Logs
-
-If the module doesn't work, please attach logs when reporting an issue:
-
-1. **LSPosed log (no PC needed)** — Open LSPosed Manager → Settings → enable **verbose logging** → open the **Logs** tab → reproduce the problem (make an incoming call) → tap save/share to export the log → attach it to your issue. (With root you can also grab `/data/local/tmp/lspd.log` directly.)
-2. **logcat (PC)** — Enable USB debugging, connect the phone to a PC, then:
-
-   ```
-   adb logcat -c
-   # now reproduce the problem (make an incoming call)
-   adb logcat -d > pokecall-log.txt
-   ```
-
-   Attach `pokecall-log.txt` to your issue.
-3. If the problem is visual, attach screenshots or a screen recording.
-
 ---
 
 ## 中文
@@ -119,22 +103,6 @@ If the module doesn't work, please attach logs when reporting an issue:
 ### 反馈
 
 遇到问题或有功能建议？欢迎提交 Issue：<https://github.com/Xposed-Modules-Repo/com.sai.pokecall/issues>
-
-### 如何获取日志
-
-模块不工作的话，提交 issue 时请附上日志：
-
-1. **LSPosed 日志（无需电脑）** — 打开 LSPosed 管理器 → 设置中开启**详细日志** → 打开「日志」页 → 复现问题（来一个电话）→ 点击保存/分享导出日志 → 上传到 issue。（有 root 也可直接抓 `/data/local/tmp/lspd.log`）
-2. **logcat（电脑）** — 开启 USB 调试，手机连接电脑后：
-
-   ```
-   adb logcat -c
-   # 此时复现问题（来电）
-   adb logcat -d > pokecall-log.txt
-   ```
-
-   把 `pokecall-log.txt` 上传到 issue。
-3. 界面显示问题可附上截图或录屏。
 
 ---
 
