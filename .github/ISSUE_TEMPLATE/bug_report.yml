@@ -1,0 +1,64 @@
+name: Bug report / 问题反馈
+description: 报告 PokeCall 问题（请先抓日志）/ Report a PokeCall issue (please collect logs first)
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📋 提交前请先抓日志 / Collect logs first
+
+        模块不工作的话，请先抓日志，再把文件拖进下面「日志」栏：
+
+        **方法一：LSPosed 日志（无需电脑）**
+        1. 打开 LSPosed 管理器 → 设置 → 开启「详细日志」（verbose logging）
+        2. 打开「日志」页 → 复现问题（来一个电话）
+        3. 点击保存 / 分享，导出日志文件
+
+        **方法二：logcat（电脑）** — 手机开启 USB 调试并连接电脑：
+        ```
+        adb logcat -c
+        # 此时复现问题（来电）
+        adb logcat -d > pokecall-log.txt
+        ```
+
+        界面显示问题请附截图 / 录屏。谢谢！
+  - type: textarea
+    id: device
+    attributes:
+      label: 设备与系统 / Device & ROM
+      description: 手机型号、系统版本（如 小米 17 Ultra，HyperOS 4 / Android 17）
+      placeholder: 型号 + ROM + Android 版本
+    validations:
+      required: true
+  - type: textarea
+    id: lsposed
+    attributes:
+      label: LSPosed 信息 / LSPosed info
+      description: 管理器版本号，是否开启详细日志
+      placeholder: 例如：LSPosed 1.9.2 (zygisk)，已开启详细日志
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      description: 怎么触发的问题？来电？挂断？设置页？
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志 / Logs（重要）
+      description: 按上面方法抓取，把日志文件拖到这里，或直接粘贴日志文本
+      placeholder: 把 lspd 日志 / logcat 文件拖到这里，或粘贴日志内容
+  - type: textarea
+    id: media
+    attributes:
+      label: 截图 / 录屏 / Screenshots
+      description: 界面问题请附截图或录屏
+      placeholder: 把图片拖到这里
