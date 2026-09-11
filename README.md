@@ -22,7 +22,7 @@ When a call comes in, instead of the stock dialer screen, you get a GBA-style Po
 - 🔔 Pokémon battle ringtones + sound effects
 - 👤 Per-contact customization: assign a trainer and Pokémon to specific contacts
 - 📍 Caller location lookup (offline phone-number database)
-- 🎵 Six selectable battle ringtones
+- 🎵 Ringtone picker: auto (follows the call type), six battle tracks, or off
 - 🇨🇳 Chinese / English battle-text toggle (pixel Chinese font)
 
 ### Requirements
@@ -49,6 +49,18 @@ When a call comes in, instead of the stock dialer screen, you get a GBA-style Po
 
 - The system dialer remains the default call app; this module only presents the incoming-call UI.
 
+### Changelog
+
+**v1.1**
+
+- New: ringtone picker with eight options — auto (follows the call type), trainer battle 1–3, wild 1–2, red battle, or off. Ringtones now actually play on incoming calls.
+- Improved: trainer & Pokémon pickers — sprites now fill the card, names are shown in Chinese and English (Pokémon include their dex number), and the list keeps its scroll position after selecting.
+- Improved: wild Pokémon entrance animation (slides in from the left).
+
+**v1.0**
+
+- Initial release.
+
 ### Feedback
 
 Found a bug or have a feature request? Open an issue: <https://github.com/Xposed-Modules-Repo/com.sai.pokecall/issues>
@@ -73,7 +85,7 @@ Found a bug or have a feature request? Open an issue: <https://github.com/Xposed
 - 🔔 宝可梦战斗铃声 + 音效
 - 👤 按联系人自定义：为指定联系人分配专属训练家与精灵
 - 📍 来电归属地查询（离线号码库）
-- 🎵 六首可选战斗铃声
+- 🎵 来电铃声选择：自动（跟随来电类型）/ 六首战斗曲 / 关闭
 - 🇨🇳 战斗中文字幕中英切换（点阵中文字体）
 
 ### 系统要求
@@ -99,6 +111,18 @@ Found a bug or have a feature request? Open an issue: <https://github.com/Xposed
 ### 说明
 
 - 系统拨号器仍是默认电话应用，本模块只接管来电显示界面。
+
+### 更新日志
+
+**v1.1**
+
+- 新增：来电铃声选择器（八项：自动（跟随来电类型）/ 训练家战 1-3 / 野生 1-2 / 红版 / 关闭），来电时正常播放（修复此前"设置了没铃声"）
+- 优化：选择训练家 / 宝可梦界面——素材放大占满卡片、名称中英双语显示（宝可梦含图鉴编号）、点选后列表不再跳回顶部
+- 优化：野生宝可梦来电出现动画（从左侧滑入）
+
+**v1.0**
+
+- 首个版本。
 
 ### 反馈
 
